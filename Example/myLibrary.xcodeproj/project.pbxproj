@@ -63,10 +63,10 @@
 		78E17E511CC94FBF29F4E30A /* Pods-myLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myLibrary_Example/Pods-myLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0DC4C07C9F111FA4F716BE /* Pods_myLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACEB83D4018810F2E64E3EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ACEB83D4018810F2E64E3EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B19B5BC20696F07E1DD11503 /* Pods-myLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myLibrary_Tests/Pods-myLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6051A82B87F3EDDB8652F3B /* myLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = myLibrary.podspec; path = ../myLibrary.podspec; sourceTree = "<group>"; };
-		DF25978AA7C62E7084C88425 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6051A82B87F3EDDB8652F3B /* myLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = myLibrary.podspec; path = ../myLibrary.podspec; sourceTree = "<group>"; };
+		DF25978AA7C62E7084C88425 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "jemkang@sina.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UYC23EG4PE;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -542,6 +545,7 @@
 			baseConfigurationReference = 78E17E511CC94FBF29F4E30A /* Pods-myLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYC23EG4PE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myLibrary/myLibrary-Prefix.pch";
 				INFOPLIST_FILE = "myLibrary/myLibrary-Info.plist";
@@ -557,6 +561,7 @@
 			baseConfigurationReference = 723D66853DAC2753114D0BF4 /* Pods-myLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYC23EG4PE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myLibrary/myLibrary-Prefix.pch";
 				INFOPLIST_FILE = "myLibrary/myLibrary-Info.plist";
